@@ -1,7 +1,15 @@
+//app.js
+// - set up a server,
+// - write a 200 head, and
+// - use res.write to send a message that concatenates the results from the
+ //   third module, but formatted to provide the user with a dollar amount
+ //   (see Success below for an example of what this will look like).
+
 var logNum = require('./modules/logNum');
 
 var http = require('http');
 
+// unit test cases
 // console.log(logNum.dispText);
 // console.log(logNum.randomUSD);
 
